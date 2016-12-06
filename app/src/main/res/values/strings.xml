@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ledger U2F Bridge</string>
+    <string name="main_info_text">Connect your Ledger Wallet</string>
+    <string name="main_cancel">Cancel</string>
+    <string name="action_settings">Settings</string>
+    <string name="unsupported_intent">This application cannot be launched directly</string> 
+</resources>

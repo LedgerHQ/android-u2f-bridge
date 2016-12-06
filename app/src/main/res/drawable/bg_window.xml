@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="0dp" android:bottom="81dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/night_blue"/>
+            <size android:height="@dimen/abc_action_bar_default_height_material"></size>
+        </shape>
+    </item>
+    <item android:top="81dp">
+        <color android:color="@color/background_color" />
+    </item>
+</layer-list>

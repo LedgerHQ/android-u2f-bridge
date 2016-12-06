@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+android {
+    packagingOptions {
+    }
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
+
+    defaultConfig {
+        applicationId 'com.ledger.android.u2f.bridge'
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1  
+        // Don't use defaultConfig.getProperty("versionCode") in versionName
+        // because it breaks F-Droid!
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            multiDexEnabled true
+            minifyEnabled true
+            shrinkResources true
+        }
+        debug {
+            multiDexEnabled true
+        }
+    }
+    productFlavors {
+        production {
+        }
+    }
+    dexOptions {
+        javaMaxHeapSize "2g"
+    }
+}
+
+configurations {
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:23.1.1'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.google.protobuf:protobuf-java:2.6.1'
+    compile 'com.android.support:design:22.2.0'
+}
+
+repositories {
+    jcenter()
+}
+

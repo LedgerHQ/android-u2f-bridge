@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/night_blue</color>
+    <color name="colorPrimaryDark">#161921</color>
+    <color name="colorAccent">@color/action_green</color>
+
+
+
+    <!-- Primary colors -->
+
+    <color name="background_color">#f9f9f9</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="night_blue">#1d2028</color>
+    <color name="light_grey_blue">#cccdd0</color>
+    <color name="dark_grey_blue">#333745</color>
+    <color name="grey_blue">#71737d</color>
+    <color name="invalid_red">#ea2e49</color>
+    <color name="valid_green">#3fb34f</color>
+    <color name="action_green">#41ccb4</color>
+    <color name="action_purple">#596799</color>
+    <color name="extra_dark_grey">#333333</color>
+    <color name="dark_grey">#666666</color>
+    <color name="soft_grey">#999999</color>
+    <color name="light_grey">#cccccc</color>
+    <color name="very_light_grey">#eeeeee</color>
+    <color name="extra_light_grey">#f4f4f4</color>
+
+
+    <!-- Darken primary colors -->
+
+    <color name="action_green_darken_3">#39C4AC</color>
+    <color name="action_green_darken_5">#34BFA7</color>
+    <color name="action_green_darken_8">#2DB8A0</color>
+    <color name="action_green_darken_15">#1BA68E</color>
+    <color name="action_green_darken_20">#0E9981</color>
+
+    <color name="extra_light_grey_darken_1">#f1f1f1</color>
+    <color name="extra_light_grey_darken_3">#ECECEC</color>
+    <color name="extra_light_grey_darken_5">#E7E7E7</color>
+    <color name="extra_light_grey_darken_6">#E5E5E5</color>
+    <color name="extra_light_grey_darken_8">#E0E0E0</color>
+    <color name="extra_light_grey_darken_15">#CECECE</color>
+    <color name="extra_light_grey_darken_20">#C1C1C1</color>
+
+    <color name="light_grey_darken_8">#B8B8B8</color>
+    <color name="light_grey_darken_20">#999999</color>
+
+    <color name="dark_grey_darken_8">#525252</color>
+
+    <!-- Shadow colors -->
+
+    <color name="normal_grey_shadow">#50CCCCCC</color>
+    <color name="darker_grey_shadow">#80CCCCCC</color>
+
+</resources>
